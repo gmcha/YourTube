@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.navbar__logo{
+    font-size: 20px;
+    color: red;
+    padding: 8px 12px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: Source Sans Pro; 
+}
+
+.navbar__search {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar__search li {
+    color: white;
+    padding: 8px 12px;
+}
+
+video {
+    width: 100vw;
+    position: sticky;
+    top: 0;
+}
+
+main {
+    font-family: Source Sans Pro;
+}
+
+.description__header{
+    padding: 0px 12px;
+}
+
+.hashtags{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.hashtags li {
+    padding-right: 8px;
+    color: blue;
+}
+
+.toggle {
+    display: flex;
+}
+
+.toggle p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.toggle i {
+    font-size: 12px;
+}
+
+.views {
+    margin: 0;
+    font-size: 14px;
+    color: grey;
+}
+
+.description__userClicks {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.description__userClicks a{
+    color: grey;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 0px;
+}
+
+.description__userClicks a p{
+    margin: 0;
+}
+
+.likes i {
+    color: blue;
+}
+
+.contents__infoVideo__creator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 16px;
+}
+
+.creator__profile {
+    display: flex;
+    align-items: center;
+}
+
+.creator__profile img {
+    block-size: 48px;
+}
+
+.creator__profile ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 16px 32px;
+}
+
+.name{
+    font-size: 14px;
+}
+
+.subscribers{
+    font-size: 12px;
+    color: grey;
+}
+
+.creator_subscribe {
+    text-decoration: none;
+    color: red;
+}
+
+.contents__upNext{
+    margin: 0px 8px;
+}
+
+.describe_upnext{
+    color: grey;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 12px;
+}
+
+.description_upNext {
+    display: flex;
+}
+section img {
+    block-size: 128px;
+}
+
+section ul {
+    list-style-type: none;
+    padding-left: 12px;
+    margin-top: 0px;
+}
+
+section li {
+    font-size: 10px;
+    color: grey;
+}
+
+.title_upnext {
+    font-size: 12px;
+    color: black;
+}
+
+section i{
+    padding: 8px 8px;
+}
+
+@media screen and (min-width: 767px) {
+    main {
+        display: flex;
+    }
+    
+}
+
